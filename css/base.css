@@ -4,7 +4,7 @@ body {
   font-size: 15px;
   line-height: 1.7;
   margin: 0;
-  padding: 30px;
+  padding: 0;
 }
 
 a {
@@ -34,12 +34,10 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  border-bottom: 1px solid #ddd;
   font-size: 2.5em;
 }
 
 h2 {
-  border-bottom: 1px solid #eee;
   font-size: 2em;
 }
 
@@ -138,11 +136,8 @@ img {
 .flex-container {
   padding: 0 1rem;
 }
-.thing, .project-name{
-  margin:15px;
-}
+
 .thing {
-  height: 240px;
   color: #fefefe;
   font-size: 200%;
   padding: 2rem;
@@ -162,4 +157,142 @@ img {
   margin-bottom: 1rem;
   cursor: pointer;
   background: #333;
+}
+#container-profile{
+  background: #03071A;
+  height: 750px;
+  position: relative;
+}
+#container-profile .personal-info{
+  text-align: center;
+  width: 100%;
+  height: auto;
+  color: white;
+  position: absolute;
+  top: 5em;
+  z-index: 99;
+}
+.personal-info h1{
+  text-transform: uppercase;
+  font-size: 3em;
+  font-weight: 300;
+  letter-spacing: 0.075em;
+  margin-bottom: 0.5em;
+}
+.personal-info h2{
+  font-size: 1.75em;
+  font-style: italic;
+  font-weight: 300;
+  margin-bottom: 1.5em;
+  letter-spacing: 0.005em
+}
+.personal-info .profile-picture{
+  padding: 0 0 30px;
+}
+ .profile-picture img{
+  border-radius: 50%;
+  border: 10px solid white;
+  height: 300px;
+  width: 300px;
+  -webkit-filter: grayscale(100%);
+}
+.triangle-effect{
+  position: absolute;
+  left: 0;
+  height: 0;
+  width: 0;
+  bottom: 0;
+  border-top: 40em solid transparent;
+  border-right: 230em solid #990100;
+  border-bottom: 8em solid #990100;
+}
+ ul.social{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 5em;
+  margin: 0 auto;
+  padding: 0;
+  z-index: 99;
+  text-align: center;
+}
+ ul.social li{
+  list-style: none;
+  display: inline;
+}
+ul.social li a{
+  color: white;
+  font-size: 3em;
+  padding: 0px 1.5em;
+}
+ul.social li a:hover{
+  text-decoration: none;
+}
+ul.social li img{
+  height: 40px;
+  width: 50px;
+  margin-bottom: -3px;
+}
+.overview-desc{
+    min-height: 25%;
+    position: relative;
+    padding: 3em 0px;
+    border-bottom: 1px solid rgba(3, 7, 26, 0.21);
+    text-align: center;
+}
+.overview-desc h2{
+  font-weight: 500;
+  font-size: 1.8em;
+  margin: 24px 0;
+}
+.overview-desc p{
+  font-size: 1.25em;
+  width: 90%;
+  margin: 0 auto;
+  padding: 1.5em 0px;
+  color: #292929;
+  line-height: 2em;
+  font-weight: 300;
+}
+.projects-list{
+  padding: 3em 0;
+}
+.projects-list h1{
+  font-weight: 500;
+  font-size: 1.8em;
+   margin: 24px 0 40px;
+}
+.projects-list h5{
+  cursor: pointer;
+  font-size: 1.2em;
+  font-weight: 300;
+  color: rgba(29, 31, 32, 0.73);
+  
+}
+.projects-list .project{
+  padding: 1em 0 2em 0;
+}
+
+.employments-list, .education-list{
+  padding: 20px 100px 20px;
+}
+
+.employments-list .employment {
+  padding-bottom: 20px;
+}
+
+.employments-list .employment .employment-title h5,
+.education-list .education-item .education-title h5{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.employments-list .employment .employment-date,
+.education-list .education-item .education-date{
+  padding-bottom: 6px;
+  font-style: italic;
+}
+
+h3.footer-text {
+  padding-bottom: 40px;
 }

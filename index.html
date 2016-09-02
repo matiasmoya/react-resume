@@ -3,11 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title>React Resume</title>
+    <link rel="shortcut icon" href="favicon.ico?v=JyyqBjym8g">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.css" />
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css">
-
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css" rel="stylesheet">
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/base.css" />
@@ -23,16 +24,95 @@
     </script>
   </head>
   <body>
-    <span>
+    <div id="container-profile">
+      <div class="personal-info">
+        <div class="profile-picture">
+          <img src="http://i.imgur.com/rGQDGIH.png" alt="profile" />
+        </div>
+        <h1>Matt Hinczuk</h1>
+        <h2>Full Stack Developer</h2>
+      </div>
+      <div class="triangle-effect"></div>
+      <ul class="social">
+        <li><a href="https://www.linkedin.com/in/matiasmoya" target="_blank"><i class="icon icon-linkedin" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.upwork.com/freelancers/~01546de92c11b1d11c" target="_blank"><img src="http://www.artemkrachulov.com/wp-content/themes/artemkrachulov/img/icon/upwork.png" alt="upwork" /></a></li>
+        <li><a href="https://github.com/matiasmoya" target="_blank"><i class="icon icon-github" aria-hidden="true"></i></a></li>
+      </ul>
+    </div>
+    <div class="overview-desc">
+      <h2>Overview</h2>
       <p>
-        I have 7 years of experience in web development. I've started with back-end development using PHP and switched to Ruby on Rails (My strongest skill atm) 3 years ago, and took care of the front-end development of many projects using many JS frameworks (like Angular JS, Backbone/Marionette, Ember, etc.) or in some cases just raw optimized JS (dependency free) 
+        I started writting code for the web 12 years ago (when I was just a kid), and now I have 7 years of professional experience in web development. I've started with back-end development using PHP and switched to Ruby on Rails (my strongest skill atm) 3 years ago, and took care of the front-end development of many projects using many JS frameworks (like Angular JS, Backbone/Marionette, Ember, etc.) or in some cases just raw optimized JS (dependency free) 
         Nowadays, I enjoy working on hybrid applications (Ionic/PhoneGap) or projects with a strong JS stack, taking care from both back-end and front-end development.
       </p>
       <p>
         I'll be happy crafting your application using the following tools: Ruby On Rails, Rspec, MongoDB, PostgreSQL, ElasticSearch, Angular JS (1 or 2), Ionic Framework (1 or 2), Gulp, SASS, Bootstrap and preprocessors to boost productivity and code quality like CoffeeScript, Slim or Stylus. I have experience with many others, but those are the ones that I love the most.
       </p>
-    </span>
-    <div id="content"></div>
+    </div>
+    <div id="content" class="projects-list"></div>
+    <hr>
+    <h2>Employment History</h2>
+    <div class="employments-list" id="job-experience">
+      <div class="employment">
+        <div class="employment-title">
+          <h5>Partner / Full Stack Developer | Devignis</h5>
+        </div>
+        <div class="employment-date">
+          February 2016 - Present
+        </div>
+        <div class="employment-description">
+          <p>My team and I started a software factory where we aim to build the best solutions for our clients needs using cutting edge technologies and everything needed to achieve our goal.</p>
+
+          <p>We aim for challenging projects where we need to put the extra mile in our code.</p>
+
+          <p>Some of our tools to build your ideas include: Backend: Ruby On Rails, RSpec, MongoDB, PostgreSQL, ElasticSearch. Frontend: Angular JS (1 or 2), Ionic Framework (1 or 2), Gulp, SASS, Bootstrap and preprocessors to boost productivity and code quality like CoffeeScript, Slim or Stylus</p>  
+          
+          <p>We love to learn new stuff everyday, so don't worry if your project needs another language/framework/paradigm :) we'll love to hear about it!</p>
+        </div>
+      </div>
+
+      <div class="employment">
+        <div class="employment-title">
+          <h5>Full Stack Development | Insignia4u</h5>
+        </div>
+        <div class="employment-date">
+          March 2013 - February 2016
+        </div>
+        <div class="employment-description">
+          <p>Back-end Development with Ruby On Rails in more than 10 projects</p>
+          <p>Front-end web development using custom js solutions, angular js, backbone, sass, and many other tools.</p>
+          <p>Front-end hybrid app development (Android/iOS) using Ionic Framework or just PhoneGap.</p>
+        </div>
+      </div>
+
+      <div class="employment">
+        <div class="employment-title">
+          <h5>Web Developer | Freelance Web developer</h5>
+        </div>
+        <div class="employment-date">
+          January 2009 - January 2013
+        </div>
+        <div class="employment-description">
+          <p>This was my introduction into the professional web development world (before this point it was only personal web projects).</p> 
+          <p>I took jobs creating and maintaining php apps and plugins using wordpress, joomla and drupal.</p>
+          <p>I stopped taking jobs in php because I fell in love with ruby.</p>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div id="education">
+      <h2>Education</h2>
+      <div class="education-list">
+        <div class="education-item">
+          <div class="education-title">
+            <h5>Engineer's degree, Computer engineering | Universidad Tecnologica Nacional</h5>
+          </div>
+          <div class="education-date">2013 - 2018 (expected)</div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <h3 class="footer-text">If you want to know more about me, please <a href="mailto:matt@devignis.com">get in touch!</a></h3>
     <script type="text/babel" src="scripts/projects.js"></script>
   </body>
 </html>

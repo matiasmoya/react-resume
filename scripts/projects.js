@@ -57,7 +57,7 @@ var Project = React.createClass({
       <div className="project">
         <div className="thing" style={thumbnailStyle} onClick={this.open}>  
         </div>
-        <h5 className="project-name">
+        <h5 className="project-name" onClick={this.open}>
           {this.props.name}
         </h5>
         <Modal show={this.state.showModal} onHide={this.close}>
