@@ -1,323 +1,24 @@
 [
   {
-    "id": 1,
-    "name": "Missing Pets (Ionic / RoR)",
-    "date": "NOVEMBER 2015",
-    "description": "<p>My team and I developed the back-end of this application using rails, and the front-end development with Ionic Framework for the rails rumble competition( www.railsrumble.com ). </p><p> The competition lasted 48 hours, very challenging! It was so much fun for me. During two days we focused on the basic functionality to take pictures and display them on a map but especially on code quality which is the most optimal to make the app to feel fast like a native application. </p><p>We thought about an application that helps people to find their missing pets, in a social way. Users take pictures to pets in the streets with their phones, then this application will save it with geolocation data and tags, building a database of possible missing pets which the people who lost their pets can use it to find them.</p>",
-    "technologies": "Ionic, Ruby on Rails",
-    "thumbnail": "http://i.imgur.com/GkV0cii.png",
-    "url": "http://missingpetsapp.com",
+    "id": 16,
+    "name": "Devignis (Soon)",
+    "date": "MARCH 2016",
+    "description": "<p>Devignis is my current project (Owner/Partner and Full Stack developer). This is our upcoming site.</p><p> The design and front-end of the splash has been made by Erika, our design and expert in the matter :)</p><p> We will post the final project very very soon.</p>",
+    "technologies": "postgresql-programming, mongodb, node-js, socket-io, javascript, angularjs, ruby-on-rails",
+    "thumbnail": "http://i.imgur.com/dnrXE8P.png",
+    "url": "http://devignis.com",
     "images":[
       {
-        "id": 14,
-        "url": "http://i.imgur.com/aKXf7do.jpg"
+        "id": 41,
+        "url": "http://i.imgur.com/OWSNfRx.jpg"
       },
       {
-        "id": 15,
-        "url": "http://i.imgur.com/Q9HrrGn.jpg"
+        "id": 42,
+        "url": "http://i.imgur.com/NqWpHRK.jpg"
       },
       {
-        "id": 16,
-        "url": "http://i.imgur.com/Y1NuaRc.jpg"
-      },
-      {
-        "id": 17,
-        "url": "http://i.imgur.com/PJsGoKh.jpg"
-      },
-      {
-        "id": 18,
-        "url": "http://i.imgur.com/hDrNWEh.jpg"
-      },
-      {
-        "id": 19,
-        "url": "http://i.imgur.com/1cm8Twb.jpg"
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "name": "e-Professionals (Ruby on Rails)",
-    "date": "JULY 2014",
-    "description": "<p>The client needed some quick fixes over the project creation, some features related with file uploads to S3 and performance improvements to some ActiveRecord queries. </p><p> I did this on Ruby on Rails 4.1 and using plupload to support the multiple files upload to S3. </p><p> We got the job posting section pretty solid, no more error 500 there :) and the uploads were going really awesome (some UI sugar on the drag-n-drop area completed the final touch)</p>",
-    "technologies": "Ruby on Rails, JavaScript, Plupload, AWS S3",
-    "thumbnail": "http://i.imgur.com/Rg1d1gc.png",
-    "url": "http://e-professionals.net",
-    "images": [
-      {
-        "id": 3,
-        "url": "http://placekitten.com/g/400/200"
-      },
-      {
-        "id": 4,
-        "url": "http://placekitten.com/g/400/200"
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "name": "TuCancha (Ruby on Rails)",
-    "date": "MARCH 2015",
-    "description": "<p>The client needed to develop an application to create and schedule reservations in soccer fields in a city of argentina. </p><p> Soccer fields published in the app can also have micro-sites hosted within, so their clients can know more about them from there.</p><p>We did the application from scratch using Ruby on Rails. We put extra care in the responsive feature of the app and in the UX of the features.</p>",
-    "technologies": "user-experience-design, responsive-web-design, javascript, postgresql-programming, ruby-on-rails",
-    "thumbnail": "http://i.imgur.com/NalC8Rd.png",
-    "url": "http://tucancha.com.ar",
-    "images":[
-      {
-        "id": 20,
-        "url": "http://i.imgur.com/69Yr7KS.jpg"
-      },
-      {
-        "id": 21,
-        "url": "http://i.imgur.com/wiEZrjH.jpg"
-      },
-      {
-        "id": 22,
-        "url": "http://i.imgur.com/mmab9SY.jpg"
-      },
-      {
-        "id": 23,
-        "url": "http://i.imgur.com/Udsw937.jpg"
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "name": "Staffeye (Backbone, RoR)",
-    "date": "SEPTEMBER 2014",
-    "description": "<p>Internal project from Insignia. This app helps you to perform evaluations to your organization (from single evaluations to 360 evaluations). An excellent tool for human resources departments and managers. </p><p> I did help with the development and maintenance of the app, which involved the use of backbone/marionettejs in the frontend and ruby on rails in the backend</p>",
-    "technologies": "ruby-on-rails, backbone, marionette-js, mongodb, javascript",
-    "thumbnail": "http://i.imgur.com/POMQUwV.jpg",
-    "url": "http://www.staffeye.com/",
-    "images":[
-      {
-        "id": 32,
-        "url": "http://i.imgur.com/wOgFy1u.jpg"
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "name": "Certifactory (Ruby on Rails)",
-    "date": "SEPTEMBER 2015",
-    "description": "<p>A internal project from insignia. Certifactory is an app that generates certificates for your courses and distributes them to your attendees.</p><p> We did the application using ruby on rails. Some of the highlight features is the pdf and image generation of the course certificate and the QR link generation that allows you to share your certificate.</p>",
-    "technologies": "imagemagick, pdf-conversion, postgresql-programming, ruby-on-rails",
-    "thumbnail": "http://i.imgur.com/jUJQt58.png",
-    "url": "http://www.certifactory.com/",
-    "images":[
-      {
-        "id": 39,
-        "url": "http://i.imgur.com/M0w9N63.jpg"
-      },
-      {
-        "id": 40,
-        "url": "http://i.imgur.com/t8CRRo1.jpg"
-      }
-    ]
-  },
-  {
-    "id": 6,
-    "name": "Safely (Ruby on Rails)",
-    "date": "JANUARY 2015",
-    "description": "<p>The client wanted an application that stores your important and personal data and files and sends them on in the event of the unexpected.</p><p> We developed this project using ruby on rails and cron jobs to send scheduled verification emails to the users.</p>",
-    "technologies": "javascript, postgresql-programming, ruby-on-rails",
-    "thumbnail": "http://i.imgur.com/rXPVrcz.png",
-    "url": "http://getsafely.com/",
-    "images":[
-      {
-        "id": 33,
-        "url": "http://i.imgur.com/RmkOO4n.jpg"
-      }
-    ]
-  },
-  {
-    "id": 7,
-    "name": "Insatiable.city (Backbone JS, Ruby on Rails)",
-    "date": "OCTOBER 2014",
-    "description": "<p>Insatiable.city is a curated list of bars and restaurants from NY. It helps you to find places to go around you.</p><p> We developed this application using BackboneJS/MarionetteJS in the frontend and Ruby on Rails and Elasticsearch in the backend.</p><p> We used geolocation data and ES geosearch to find results nearby.</p>",
-    "technologies": "responsive-web-design, postgresql-programming, geolocation, elasticsearch, javascript, backbone-js, ruby-on-rails",
-    "thumbnail": "http://i.imgur.com/tmgCc9U.png",
-    "url": "http://insatiable.city",
-    "images":[
-      {
-        "id": 3,
-        "url": "http://i.imgur.com/i0k40TI.jpg"
-      },
-      {
-        "id": 4,
-        "url": "http://i.imgur.com/fGRsqkt.jpg"
-      },
-      {
-        "id": 5,
-        "url": "http://i.imgur.com/01ip1cK.jpg"
-      },
-      {
-        "id": 6,
-        "url": "http://i.imgur.com/nn5YzmO.jpg"
-      },
-      {
-        "id": 7,
-        "url": "http://i.imgur.com/In1Jxhq.jpg"
-      },
-      {
-        "id": 8,
-        "url": "http://i.imgur.com/qc1UUdg.jpg"
-      },
-      {
-        "id": 9,
-        "url": "http://i.imgur.com/6c5FRpq.jpg"
-      }
-    ]
-  },
-  {
-    "id": 8,
-    "name": "HappyHourMonster (RoR/Ionic)",
-    "date": "JULY 2015",
-    "description": "<p>HappyHourMonster is an application that helps you to find happy hours near you in New York.</p><p> I developed this application using Ionic / AngularJS for the mobile application (Android/iOS) and Ruby on Rails, Postgres and Elasticsearch in the backend.</p>",
-    "technologies": "phonegap, apache-cordova, ruby-on-rails, Ionic, angular-js",
-    "thumbnail": "http://i.imgur.com/IGnFoiP.png",
-    "url": "http://happyhourmonster.com",
-    "images": [
-      {
-        "id": 3,
-        "url": "http://placekitten.com/g/400/200"
-      },
-      {
-        "id": 4,
-        "url": "http://placekitten.com/g/400/200"
-      }
-    ]
-  },
-  {
-    "id": 9,
-    "name": "Hatched (Ionic/RoR)",
-    "date": "AUGUST 2015",
-    "description": "<p>Hatched is an application that helps you to find new restaurants and bars in NYC.</p><p>We developed this application using Ionic/AngularJS for the mobile application and RubyOnRails, Postgres and ElasticSearch for the API.</p>",
-    "technologies": "phonegap, apache-cordova, ruby-on-rails, Ionic, angular-js",
-    "thumbnail": "http://i.imgur.com/yh91YtP.jpg",
-    "url": "http://www.hatched.nyc/",
-    "images": [
-      {
-        "id": 3,
-        "url": "http://placekitten.com/g/400/200"
-      },
-      {
-        "id": 4,
-        "url": "http://placekitten.com/g/400/200"
-      }
-    ]
-  },
-  {
-    "id": 10,
-    "name": "Infohu/Rollaborate (Ruby on Rails)",
-    "date": "JUNE 2015",
-    "description": "<p>Infohu is an application that helps you to get your project files and data organized.</p><p> The client needed an application that performs well with an innovative UX.</p><p> Sharing projects, connection, support and sync with dropbox, advanced metasearch through files and a robust user role system was required.</p><p> We developed this application with tons of JS and Ruby on Rails in the backend.</p>",
-    "technologies": "javascript, postgresql-programming, ruby-on-rails",
-    "thumbnail": "http://i.imgur.com/4xfEUdl.png",
-    "url": "http://rollaborate.com/",
-    "images":[
-      {
-        "id": 35,
-        "url": "http://i.imgur.com/3AaU4xA.jpg"
-      },
-      {
-        "id": 36,
-        "url": "http://i.imgur.com/TM3YBFK.jpg"
-      },
-      {
-        "id": 37,
-        "url": "http://i.imgur.com/GzGG3VI.jpg"
-      },
-      {
-        "id": 38,
-        "url": "http://i.imgur.com/JSXnFh3.jpg"
-      }
-    ]
-  },
-  {
-    "id": 11,
-    "name": "Celectiv (Ruby on Rails)",
-    "date": "OCTOBER 2015",
-    "description": "<p>Celectiv helps organizations to find the correct person for a given job position.</p><p> I developed this application using ruby on rails in the backend and vanilla javascript in the frontend.</p><p> I did some advanced indexing of the data with elasticsearch to help users to ellaborate their entries in the smartest way possible.</p>",
-    "technologies": "javascript, postgresql-programming, ruby-on-rails, elasticsearch",
-    "thumbnail": "http://i.imgur.com/ylMkksX.png",
-    "url": "http://celectiv.com",
-    "images":[
-      {
-        "id": 1,
-        "url": "http://i.imgur.com/POMQUwV.jpg"
-      },
-      {
-        "id": 2,
-        "url": "http://i.imgur.com/8rnfmgk.jpg"
-      }
-    ]
-  },
-  {
-    "id": 12,
-    "name": "Guguguru (Ruby on Rails)",
-    "date": "FEBRUARY 2015",
-    "description": "<p>Guguguru helps you to get customized product recommendations for a future mom, through an advanced algorythm based on your lifestyle and personal taste.</p><p> We developed this application using ruby on rails and mongodb in the backend. We have an advanced algorythm that scores the user choices and determines the best products for their preferences.</p>",
-    "technologies": "javascript, postgresql-programming, ruby-on-rails, mongodb",
-    "thumbnail": "http://i.imgur.com/KCOWY4t.png",
-    "url": "http://celectiv.com",
-    "images":[
-      {
-        "id": 34,
-        "url": "http://i.imgur.com/6vZnSZH.jpg"
-      }
-    ]
-  },
-  {
-    "id": 13,
-    "name": "TheDJList (Ruby On Rails)",
-    "date": "DECEMBER 2014",
-    "description": "<p>TheDJList: The World's Largest DJ Directory. Bringing you DJ & Dance Music info since 1997</p><p>This was a challenging project were I needed to update an old version of rails, and the project codebase was huge.</p><p> I also been involved in the frontend integration of the new design and I developed some of the flows in the application like the user onboarding.</p>",
-    "technologies": "javascript, postgresql-programming, ruby-on-rails, mongodb",
-    "thumbnail": "http://i.imgur.com/UuObQjK.jpg",
-    "url": "http://thedjlist.com",
-    "images":[
-      {
-        "id": 28,
-        "url": "http://i.imgur.com/jPARPu1.jpg"
-      },
-      {
-        "id": 29,
-        "url": "http://i.imgur.com/OcLoug9.jpg"
-      },
-      {
-        "id": 30,
-        "url": "http://i.imgur.com/9UzebeD.jpg"
-      },
-      {
-        "id": 31,
-        "url": "http://i.imgur.com/IYr41Mr.jpg"
-      }
-    ]
-  },
-  {
-    "id": 14,
-    "name": "Inksy (RoR/Angular/React)",
-    "date": "MAY 2015",
-    "description": "<p>Inksy was a marketplace that helped users to create and sell their designs, printing them in shirts, hoodies, mugs, etc and publishing in their inksy stores</p><p>I've been involved in the development and maintenance of the design creator tool, which was developed using AngularJS in the first version and later on it was migrated into react. This tool helped users to create amazing designs that were going to be printed over shirts, hoodies and hugs between other variants.</p><p>I also helped developing the backend in ruby on rails for this marketplace (stores, payment integrations, aws, async uploads to s3, pdf and image processing, and more)</p><p> I had my best time working with these guys, they are awesome professionals and very fun people.</p>",
-    "technologies": "redis, dropbox-api, stripe, react-js, postgresql-programming, imagemagick, javascript, angularjs, ruby-on-rails",
-    "thumbnail": "http://i.imgur.com/UNbOunA.png",
-    "url": "http://inksy.co",
-    "images":[
-      {
-        "id": 10,
-        "url": "http://i.imgur.com/INfDHbr.jpg"
-      },
-      {
-        "id": 11,
-        "url": "http://i.imgur.com/YXNsvPg.jpg"
-      },
-      {
-        "id": 12,
-        "url": "http://i.imgur.com/FBUwLac.jpg"
-      },
-      {
-        "id": 13,
-        "url": "http://i.imgur.com/CXt7rex.jpg"
+        "id": 43,
+        "url": "http://i.imgur.com/2tLL508.jpg"
       }
     ]
   },
@@ -332,42 +33,313 @@
     "images":[
       {
         "id": 24,
-        "url": "http://i.imgur.com/l7TBj4b.jpg"
+        "url": "http://i.imgur.com/gOtuE6y.png"
       },
       {
         "id": 25,
-        "url": "http://i.imgur.com/y0ISoXk.jpg"
+        "url": "http://i.imgur.com/1R9oNoQ.png"
       },
       {
         "id": 26,
-        "url": "http://i.imgur.com/367D7Wh.jpg"
-      },
-      {
-        "id": 27,
-        "url": "http://i.imgur.com/sNBHdUA.jpg"
+        "url": "http://i.imgur.com/ztLOFUF.jpg"
       }
     ]
   },
   {
-    "id": 16,
-    "name": "Devignis (Soon)",
-    "date": "MARCH 2016",
-    "description": "<p>Devignis is my current project (Owner/Partner and Full Stack developer). This is our upcoming site.</p><p> The design and front-end of the splash has been made by Erika, our design and expert in the matter :)</p><p> We will post the final project very very soon.</p>",
-    "technologies": "postgresql-programming, mongodb, node-js, socket-io, javascript, angularjs, ruby-on-rails",
-    "thumbnail": "http://i.imgur.com/dnrXE8P.png",
-    "url": "http://devignis.com",
+    "id": 14,
+    "name": "Inksy (RoR/Angular/React)",
+    "date": "MAY 2015",
+    "description": "<p>Inksy was a marketplace that helped users to create and sell their designs, printing them in shirts, hoodies, mugs, etc and publishing in their inksy stores</p><p>I've been involved in the development and maintenance of the design creator tool, which was developed using AngularJS in the first version and later on it was migrated into react. This tool helped users to create amazing designs that were going to be printed over shirts, hoodies and hugs between other variants.</p><p>I also helped developing the backend in ruby on rails for this marketplace (stores, payment integrations, aws, async uploads to s3, pdf and image processing, and more)</p><p> I had my best time working with these guys, they are awesome professionals and very fun people.</p>",
+    "technologies": "redis, dropbox-api, stripe, react-js, postgresql-programming, imagemagick, javascript, angularjs, ruby-on-rails",
+    "thumbnail": "http://i.imgur.com/UNbOunA.png",
+    "url": "http://inksy.co",
     "images":[
       {
-        "id": 41,
-        "url": "http://i.imgur.com/jA7BIBc.jpg"
+        "id": 10,
+        "url": "http://i.imgur.com/obCse91.jpg"
       },
       {
-        "id": 42,
-        "url": "http://i.imgur.com/7V06snx.jpg"
+        "id": 11,
+        "url": "http://i.imgur.com/IEiasZS.jpg"
       },
       {
-        "id": 43,
-        "url": "http://i.imgur.com/hf0d9xK.jpg"
+        "id": 12,
+        "url": "http://i.imgur.com/hhJrEVQ.jpg"
+      },
+      {
+        "id": 13,
+        "url": "http://i.imgur.com/Z52T3uv.jpg"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "TheDJList (Ruby On Rails)",
+    "date": "DECEMBER 2014",
+    "description": "<p>TheDJList: The World's Largest DJ Directory. Bringing you DJ & Dance Music info since 1997</p><p>This was a challenging project were I needed to update an old version of rails, and the project codebase was huge.</p><p> I also been involved in the frontend integration of the new design and I developed some of the flows in the application like the user onboarding.</p>",
+    "technologies": "javascript, postgresql-programming, ruby-on-rails, mongodb",
+    "thumbnail": "http://i.imgur.com/UuObQjK.jpg",
+    "url": "http://thedjlist.com",
+    "images":[
+      {
+        "id": 28,
+        "url": "http://i.imgur.com/i7TwBYe.jpg"
+      },
+      {
+        "id": 29,
+        "url": "http://i.imgur.com/3ZTyNWq.jpg"
+      },
+      {
+        "id": 30,
+        "url": "http://i.imgur.com/stDq5sX.jpg"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Guguguru (Ruby on Rails)",
+    "date": "FEBRUARY 2015",
+    "description": "<p>Guguguru helps you to get customized product recommendations for a future mom, through an advanced algorythm based on your lifestyle and personal taste.</p><p> We developed this application using ruby on rails and mongodb in the backend. We have an advanced algorythm that scores the user choices and determines the best products for their preferences.</p>",
+    "technologies": "javascript, postgresql-programming, ruby-on-rails, mongodb",
+    "thumbnail": "http://i.imgur.com/KCOWY4t.png",
+    "url": "http://celectiv.com",
+    "images":[
+      {
+        "id": 34,
+        "url": "http://i.imgur.com/MIjFTeX.jpg"
+      },
+      {
+        "id": 35,
+        "url": "http://i.imgur.com/0FW0sMu.jpg"
+      },
+      {
+        "id": 36,
+        "url": "http://i.imgur.com/kRCm7Mv.jpg"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "HappyHourMonster (RoR/Ionic)",
+    "date": "JULY 2015",
+    "description": "<p>HappyHourMonster is an application that helps you to find happy hours near you in New York.</p><p> I developed this application using Ionic / AngularJS for the mobile application (Android/iOS) and Ruby on Rails, Postgres and Elasticsearch in the backend.</p>",
+    "technologies": "phonegap, apache-cordova, ruby-on-rails, Ionic, angular-js",
+    "thumbnail": "http://i.imgur.com/IGnFoiP.png",
+    "url": "http://happyhourmonster.com",
+    "images": [
+      {
+        "id": 3,
+        "url": "http://i.imgur.com/kJv2RbL.jpg"
+      },
+      {
+        "id": 4,
+        "url": "http://i.imgur.com/qJSrSaf.jpg"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Hatched (Ionic/RoR)",
+    "date": "AUGUST 2015",
+    "description": "<p>Hatched is an application that helps you to find new restaurants and bars in NYC.</p><p>We developed this application using Ionic/AngularJS for the mobile application and RubyOnRails, Postgres and ElasticSearch for the API.</p>",
+    "technologies": "phonegap, apache-cordova, ruby-on-rails, Ionic, angular-js",
+    "thumbnail": "http://i.imgur.com/yh91YtP.jpg",
+    "url": "http://www.hatched.nyc/",
+    "images": [
+      {
+        "id": 3,
+        "url": "http://i.imgur.com/ZnwZE0s.jpg"
+      },
+      {
+        "id": 4,
+        "url": "http://i.imgur.com/bMn6R7s.jpg"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Missing Pets (Ionic / RoR)",
+    "date": "NOVEMBER 2015",
+    "description": "<p>My team and I developed the back-end of this application using rails, and the front-end development with Ionic Framework for the rails rumble competition( www.railsrumble.com ). </p><p> The competition lasted 48 hours, very challenging! It was so much fun for me. During two days we focused on the basic functionality to take pictures and display them on a map but especially on code quality which is the most optimal to make the app to feel fast like a native application. </p><p>We thought about an application that helps people to find their missing pets, in a social way. Users take pictures to pets in the streets with their phones, then this application will save it with geolocation data and tags, building a database of possible missing pets which the people who lost their pets can use it to find them.</p>",
+    "technologies": "Ionic, Ruby on Rails",
+    "thumbnail": "http://i.imgur.com/GkV0cii.png",
+    "url": "http://missingpetsapp.com",
+    "images":[
+      {
+        "id": 14,
+        "url": "http://i.imgur.com/EhWTLIK.jpg"
+      },
+      {
+        "id": 15,
+        "url": "http://i.imgur.com/bObRFTC.jpg"
+      },
+      {
+        "id": 16,
+        "url": "http://i.imgur.com/ke4YvV5.jpg"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Infohu/Rollaborate (Ruby on Rails)",
+    "date": "JUNE 2015",
+    "description": "<p>Infohu is an application that helps you to get your project files and data organized.</p><p> The client needed an application that performs well with an innovative UX.</p><p> Sharing projects, connection, support and sync with dropbox, advanced metasearch through files and a robust user role system was required.</p><p> We developed this application with tons of JS and Ruby on Rails in the backend.</p>",
+    "technologies": "javascript, postgresql-programming, ruby-on-rails",
+    "thumbnail": "http://i.imgur.com/4xfEUdl.png",
+    "url": "http://rollaborate.com/",
+    "images":[
+      {
+        "id": 35,
+        "url": "http://i.imgur.com/V5U95Rr.jpg"
+      },
+      {
+        "id": 36,
+        "url": "http://i.imgur.com/69Qgvpk.jpg"
+      },
+      {
+        "id": 37,
+        "url": "http://i.imgur.com/u0nNwps.jpg"
+      },
+      {
+        "id": 38,
+        "url": "http://i.imgur.com/2GniOgu.jpg"
+      },
+      {
+        "id": 39,
+        "url": "http://i.imgur.com/ijzIWD9.jpg"
+      },
+      {
+        "id": 40,
+        "url": "http://i.imgur.com/Lan9M8X.jpg"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Celectiv (Ruby on Rails)",
+    "date": "OCTOBER 2015",
+    "description": "<p>Celectiv helps organizations to find the correct person for a given job position.</p><p> I developed this application using ruby on rails in the backend and vanilla javascript in the frontend.</p><p> I did some advanced indexing of the data with elasticsearch to help users to ellaborate their entries in the smartest way possible.</p>",
+    "technologies": "javascript, postgresql-programming, ruby-on-rails, elasticsearch",
+    "thumbnail": "http://i.imgur.com/kJVsvip.png",
+    "url": "http://celectiv.com",
+    "images":[
+      {
+        "id": 1,
+        "url": "http://i.imgur.com/CELzqLr.png"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Staffeye (Backbone, RoR)",
+    "date": "SEPTEMBER 2014",
+    "description": "<p>Internal project from Insignia. This app helps you to perform evaluations to your organization (from single evaluations to 360 evaluations). An excellent tool for human resources departments and managers. </p><p> I did help with the development and maintenance of the app, which involved the use of backbone/marionettejs in the frontend and ruby on rails in the backend</p>",
+    "technologies": "ruby-on-rails, backbone, marionette-js, mongodb, javascript",
+    "thumbnail": "http://i.imgur.com/YmsP3rq.jpg",
+    "url": "http://www.staffeye.com/",
+    "images":[
+      {
+        "id": 32,
+        "url": "http://i.imgur.com/YmsP3rq.jpg"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "e-Professionals (Ruby on Rails)",
+    "date": "JULY 2014",
+    "description": "<p>The client needed some quick fixes over the project creation, some features related with file uploads to S3 and performance improvements to some ActiveRecord queries. </p><p> I did this on Ruby on Rails 4.1 and using plupload to support the multiple files upload to S3. </p><p> We got the job posting section pretty solid, no more error 500 there :) and the uploads were going really awesome (some UI sugar on the drag-n-drop area completed the final touch)</p>",
+    "technologies": "Ruby on Rails, JavaScript, Plupload, AWS S3",
+    "thumbnail": "http://i.imgur.com/8hFBzCk.jpg",
+    "url": "http://e-professionals.net",
+    "images": [
+      {
+        "id": 3,
+        "url": "http://i.imgur.com/8hFBzCk.jpg"
+      },
+      {
+        "id": 4,
+        "url": "http://i.imgur.com/VKv8qWi.jpg"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "TuCancha (Ruby on Rails)",
+    "date": "MARCH 2015",
+    "description": "<p>The client needed to develop an application to create and schedule reservations in soccer fields in a city of argentina. </p><p> Soccer fields published in the app can also have micro-sites hosted within, so their clients can know more about them from there.</p><p>We did the application from scratch using Ruby on Rails. We put extra care in the responsive feature of the app and in the UX of the features.</p>",
+    "technologies": "user-experience-design, responsive-web-design, javascript, postgresql-programming, ruby-on-rails",
+    "thumbnail": "http://i.imgur.com/NalC8Rd.png",
+    "url": "http://tucancha.com.ar",
+    "images":[
+      {
+        "id": 20,
+        "url": "http://i.imgur.com/B3g9WGj.png"
+      },
+      {
+        "id": 21,
+        "url": "http://i.imgur.com/kO68tZV.png"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Certifactory (Ruby on Rails)",
+    "date": "SEPTEMBER 2015",
+    "description": "<p>A internal project from insignia. Certifactory is an app that generates certificates for your courses and distributes them to your attendees.</p><p> We did the application using ruby on rails. Some of the highlight features is the pdf and image generation of the course certificate and the QR link generation that allows you to share your certificate.</p>",
+    "technologies": "imagemagick, pdf-conversion, postgresql-programming, ruby-on-rails",
+    "thumbnail": "http://i.imgur.com/jUJQt58.png",
+    "url": "http://www.certifactory.com/",
+    "images":[
+      {
+        "id": 39,
+        "url": "http://i.imgur.com/6d5cjAq.jpg"
+      },
+      {
+        "id": 40,
+        "url": "http://i.imgur.com/xo0EInf.jpg"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Safely (Ruby on Rails)",
+    "date": "JANUARY 2015",
+    "description": "<p>The client wanted an application that stores your important and personal data and files and sends them on in the event of the unexpected.</p><p> We developed this project using ruby on rails and cron jobs to send scheduled verification emails to the users.</p>",
+    "technologies": "javascript, postgresql-programming, ruby-on-rails",
+    "thumbnail": "http://i.imgur.com/rXPVrcz.png",
+    "url": "http://getsafely.com/",
+    "images":[
+      {
+        "id": 33,
+        "url": "http://i.imgur.com/GWVwJ1A.jpg"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Insatiable.city (Backbone JS, Ruby on Rails)",
+    "date": "OCTOBER 2014",
+    "description": "<p>Insatiable.city is a curated list of bars and restaurants from NY. It helps you to find places to go around you.</p><p> We developed this application using BackboneJS/MarionetteJS in the frontend and Ruby on Rails and Elasticsearch in the backend.</p><p> We used geolocation data and ES geosearch to find results nearby.</p>",
+    "technologies": "responsive-web-design, postgresql-programming, geolocation, elasticsearch, javascript, backbone-js, ruby-on-rails",
+    "thumbnail": "http://i.imgur.com/tmgCc9U.png",
+    "url": "http://insatiable.city",
+    "images":[
+      {
+        "id": 3,
+        "url": "http://mockuphone.com/upload/efe586e1e65470297ecff78c65fa2bbc/iphone6splusspacegrey/iphone6splusspacegrey_portrait.png"
+      },
+      {
+        "id": 4,
+        "url": "http://mockuphone.com/upload/4ae34f96bbe5e7f8d6c84fefa8f16859/iphone6splusspacegrey/iphone6splusspacegrey_portrait.png"
+      },
+      {
+        "id": 5,
+        "url": "http://i.imgur.com/onEkvpu.jpg"
+      },
+      {
+        "id": 6,
+        "url": "http://i.imgur.com/ycC9815.jpg"
       }
     ]
   }
