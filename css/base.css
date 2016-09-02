@@ -296,3 +296,28 @@ ul.social li img{
 h3.footer-text {
   padding-bottom: 40px;
 }
+
+@media only screen
+  and (max-device-width: 480px)
+  and (orientation: portrait) {
+  .personal-info h1 {
+    font-size: 2.6em;
+  }
+
+  ul.social li a{
+    padding: 0 15px;
+  }
+
+  .flex-container {
+    padding: 0px;
+    width: 95%;
+  }
+
+  .employments-list, .education-list {
+    padding: 20px 35px 20px;
+  }
+
+  .projects-list h5 {
+    font-size: 16px;
+  }
+}
